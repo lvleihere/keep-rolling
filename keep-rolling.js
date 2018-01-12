@@ -1,4 +1,4 @@
-(function(options){
+var keepRolling = function(options){
     let keepRollingBox = document.querySelector('.keep-rolling-box');
     let ulsEle = createEle('ul',{class:'keep-rolling-ul'});
     let lisEle = null, imgEle = null, timer = null;
@@ -76,22 +76,4 @@
     ulsEle.addEventListener('mouseout',function(){
         animationsGo();
     })
-})({
-    imgs:[
-        './images/11.gif',
-        './images/22.gif',
-        './images/33.gif',
-        './images/44.gif',
-        './images/55.gif',
-        './images/66.gif',
-    ],
-    imgWidth:288,
-    speed:1,
-    box:{
-        width:'60vw',
-        height:'112px',
-        overflow:'hidden',
-        border:'1px green solid',
-        pos:'center'
-    }
-})
+}
