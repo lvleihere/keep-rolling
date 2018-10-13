@@ -27,7 +27,7 @@ params   | type   |                 explanation               | required
 imgs     | Array  | 图片的绝对or相对地址                        |   √
 imgWidth | number | 图片的宽度（绝对宽度）                      |   √
 speed    | number | 图片移动速度（1为requestAnimationFrame间隔）|   √
-box      | object | 外层盒子的参数                             |   √
+box      | Object | 外层盒子的参数                             |   √
 
 author:
 lvlei(.fun)
